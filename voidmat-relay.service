@@ -1,0 +1,15 @@
+[Unit]
+Description=voidmat relay server
+After=network.target
+
+[Service]
+Type=simple
+User=voidmat
+ExecStart=/usr/local/bin/voidmat-relay
+WorkingDirectory=/etc/voidmat
+Restart=always
+RestartSec=5
+Environment=RUST_LOG=info
+
+[Install]
+WantedBy=multi-user.target

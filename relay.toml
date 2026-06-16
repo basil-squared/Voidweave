@@ -1,0 +1,8 @@
+[relay]
+port = 7777
+host = "0.0.0.0"
+max_rooms = 1000
+max_players_per_room = 8
+ping_interval_secs = 30
+ping_timeout_secs = 10
+max_message_size_bytes = 65536

@@ -1,0 +1,4 @@
+/target
+relay.toml.local
+*.log
+.env
